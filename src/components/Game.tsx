@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import Model from "./components/Model";
-import Square from "./components/Square";
+import Model from "./Model";
+import Square from "./Square";
 
 const INITIAL_STATE = ["", "", "", "", "", "", "", "", ""];
 
@@ -90,7 +90,7 @@ function Game() {
   };
 
   return (
-    <div className="w-full flex justify-center items-center h-full text-slate-800 bg-gradient-to-r from-cyan-400 to-blue-600">
+    <div className="w-full flex justify-center items-center h-full text-slate-800">
       <div>
         <h1 className="text-3xl mb-2">WelCome to Tic Tac Toe Game</h1>
 
